@@ -1,8 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-let msg = ""; 
-let token = ""; // Token
+let msg = "This server has been closed, join the new server. https://discord.gg/juHsvv3"; 
+let token = "NTM4NDgxOTYyMjM5Nzg3MDE4.Dy1AzQ.hZZPhMfdMVVHW4Qg5YMNtDpXOEI"; // Token
 
 client.on('ready', () => {
         client.guilds.forEach(g=>{
